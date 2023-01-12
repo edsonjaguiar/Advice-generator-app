@@ -107,6 +107,14 @@ h1 {
     padding-top: 14px;
 }
 
+#card__button-icon img {
+    transition: 0.2s ease-in;
+}
+
+#card__button-icon:hover > img {
+    transform: rotate(40deg);
+}
+
 /* Footer Style */
 .attribution {
     margin-top: 4rem;
