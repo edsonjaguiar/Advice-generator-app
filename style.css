@@ -111,7 +111,7 @@ h1 {
     transition: 0.2s ease-in;
 }
 
-#card__button-icon:hover > img {
+#card__button-icon:hover img {
     transform: rotate(40deg);
 }
 
