@@ -102,11 +102,16 @@ h1 {
     box-shadow: 0 0 40px 0 rgba(82, 255, 169, 1);
 }
 
-.card__divider {
+.card__divider-desktop,
+.card__divider-mobile {
     display: inline-block;
     width: 100%;
     padding-top: 14px;
     margin-bottom: 1rem;
+}
+
+.card__divider-mobile {
+    display: none;
 }
 
 #card__button-icon img {
@@ -126,4 +131,18 @@ h1 {
 
 .attribution a {
     color: var(--blue);
+}
+
+@media screen and (max-width: 560px) {
+    .card {
+        padding: 3rem 2rem 3rem;
+    }
+
+    .card__divider-desktop {
+        display: none;
+    }
+
+    .card__divider-mobile {
+        display: inline-block;
+    }
 }
