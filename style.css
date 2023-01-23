@@ -68,18 +68,18 @@ h1 {
     background: var(--dark-grayish-blue);
     text-align: center;
 
-    padding: 3rem 1.25rem 3rem;
+    padding: 3rem 3rem 3rem;
     border-radius: 13px;
 
     position: relative;
 
-    max-width: 500px;
+    max-width: 550px;
     margin: 16px;
 }
 
 .card h1 {
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
     color: var(--neon-green);
     padding-bottom: 14px;
 }
@@ -87,7 +87,7 @@ h1 {
 .card button {
     border: none;
     background: var(--neon-green);
-    padding: 15px;
+    padding: 18px;
     border-radius: 50%;
     cursor: pointer;
 
@@ -104,7 +104,9 @@ h1 {
 
 .card__divider {
     display: inline-block;
+    width: 100%;
     padding-top: 14px;
+    margin-bottom: 1rem;
 }
 
 #card__button-icon img {
@@ -115,21 +117,13 @@ h1 {
     transform: rotate(40deg);
 }
 
-/* Footer Style */
+/* Footer Styles */
 .attribution {
-    margin-top: 4rem;
     color: var(--light-cyan);
     text-align: center;
+    margin-top: 4rem;
 }
 
 .attribution a {
     color: var(--blue);
-}
-
-/* Media Queries */
-@media screen and (max-width: 480px) {
-    /* Variables CSS */
-    :root {
-        --font-size-text: 1.2rem;
-    }
 }
