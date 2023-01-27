@@ -17,8 +17,9 @@ async function fetchNewAdvice() {
             });
         }
 
+        cardButton.disabled = false;
         cardId.innerText = data.slip.id;
-        cardAdvice.innerText = `"${data.slip.advice}"`;
+        cardAdvice.innerText = `❝${data.slip.advice}❞`;
     } catch (err) {
         switch (err.cause.status) {
             case 400:
