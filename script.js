@@ -12,7 +12,7 @@ async function fetchNewAdvice() {
         if (!response.ok) {
             throw new Error('Bad response', {
                 cause: {
-                    res,
+                    response,
                 },
             });
         }
